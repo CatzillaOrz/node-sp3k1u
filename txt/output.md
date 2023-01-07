@@ -2,6 +2,6 @@
 
  ## This is what we know about avocado: 
 
- -  The avocado 🥑 is popular in vegetarian cuisine as a substitute for meats in sandwiches and salads because of its high fat content 😄
+ -  The avocado 🥑 is popular in vegetarian cuisine as a substitute for meats in sandwiches and salads because of its high fat content 😄x
  
- - time: 1673073863766
+ - time: 1673077882415
