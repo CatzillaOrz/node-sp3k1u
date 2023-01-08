@@ -7,9 +7,9 @@ fs.writeFileSync('./txt/output.md', outText);
 
 // run as Asynchronous
 fs.readFile('./txt/start.md', 'utf-8', (err, data) => {
-    const str = data.toString().replace(/\n/g,"")
+    const str = data.toString().replace(/\n/g, "")
     fs.readFile(`./txt/${str}`, 'utf-8', (err, result) => {
-        fs.writeFile('./txt/final.md', `${data} \n ${result}`,  'utf-8', err => {
+        fs.writeFile('./txt/final.md', `${data} \n ${result}`, 'utf-8', err => {
             console.log(err)
         })
     })
